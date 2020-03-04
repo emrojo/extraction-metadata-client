@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.homepage = 'https://rubygems.org/gems/extraction_metadata_client'
 
-  s.add_dependency 'json_api_client'
+  s.add_dependency 'json_api_client', '~> 1.16'
   s.add_development_dependency 'byebug', '~> 11'
   s.add_development_dependency 'factory_bot', '~> 5'
   s.add_development_dependency 'rspec', '~> 3'
