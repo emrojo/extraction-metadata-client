@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     extraction_metadata_client (0.0.1a)
-      json_api_client
+      json_api_client (~> 1.16)
 
 GEM
   remote: https://rubygems.org/
@@ -43,7 +43,7 @@ GEM
     parser (2.7.0.4)
       ast (~> 2.4.0)
     public_suffix (4.0.3)
-    rack (2.2.2)
+    rack (3.0.4.1)
     rainbow (3.0.0)
     rexml (3.2.4)
     rspec (3.9.0)
